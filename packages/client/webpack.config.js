@@ -8,7 +8,7 @@ module.exports = {
     libraryTarget: "umd",
   },
   node: {
-    crypto: "empty",
+    // crypto: "empty",
   },
   module: {
     rules: [

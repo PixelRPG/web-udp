@@ -125,7 +125,7 @@ udp.connections.subscribe(connection => {
 
 ### P2P
 
-Of course this library also supports peer-to-peer communication. The below example demonstrates two clients connected to eachother in the same browser tab. The example could be easily adapted to two machines, but the users' identities would have to be exchanged at the application level since web-udp doesn't doesn't provide rooms or peer brokering out of the box.
+Of course this library also supports peer-to-peer communication. The below example demonstrates two clients connected to eachother in the same browser tab. The example could be easily adapted to two machines, but the users' identities would have to be exchanged at the application level since web-udp doesn't provide rooms or peer brokering out of the box.
 
 ```html
 <!-- index.html -->

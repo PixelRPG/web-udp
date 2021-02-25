@@ -3,22 +3,22 @@
   "author": "Eric McDaniel <eric.g.mcdaniel@gmail.com>",
   "description": "",
   "devDependencies": {
-    "@types/jest": "24.0.15",
+    "@types/jest": "26.0.23",
     "@types/shortid": "0.0.29",
-    "@types/ws": "6.0.1",
-    "husky": "2.7.0",
-    "jest": "24.8.0",
-    "lerna": "3.15.0",
-    "lint-staged": "8.2.1",
-    "mock-socket": "7.1.0",
-    "prettier": "1.18.2",
-    "puppeteer": "1.18.1",
-    "ts-jest": "^25.4.0",
-    "ts-loader": "^7.0.2",
-    "typescript": "3.5.2",
-    "webpack": "4.35.0",
-    "webpack-cli": "3.3.5",
-    "webpack-node-externals": "1.7.2"
+    "@types/ws": "7.4.2",
+    "husky": "6.0.0",
+    "jest": "26.6.3",
+    "lerna": "4.0.0",
+    "lint-staged": "10.5.4",
+    "mock-socket": "9.0.3",
+    "prettier": "2.2.1",
+    "puppeteer": "9.1.0",
+    "ts-jest": "^26.5.5",
+    "ts-loader": "^9.1.1",
+    "typescript": "4.2.4",
+    "webpack": "5.36.2",
+    "webpack-cli": "4.6.0",
+    "webpack-node-externals": "3.0.0"
   },
   "license": "ISC",
   "lint-staged": {
@@ -40,7 +40,6 @@
     "test-coverage": "jest --verbose --coverage"
   },
   "version": "4.0.0",
-  "dependencies": {},
   "workspaces": [
     "packages/*"
   ]

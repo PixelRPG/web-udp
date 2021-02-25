@@ -95,7 +95,7 @@ export default class RTCConnectionProvider
           )
         }
 
-        peer.addIceCandidate(ice)
+        await peer.addIceCandidate(ice)
 
         break
       }

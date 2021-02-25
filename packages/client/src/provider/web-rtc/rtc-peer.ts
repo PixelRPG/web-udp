@@ -223,11 +223,17 @@ export default class RTCPeer implements Peer {
     this.peerConnection.setRemoteDescription(sdp)
   }
 
-  addIceCandidate(ice: RTCIceCandidateInit) {
+  async addIceCandidate(ice: RTCIceCandidateInit) {
     if (ice === null) {
       return
     }
-    this.peerConnection.addIceCandidate(ice)
+    try {
+      this.peerConnection.addIceCandidate(ice)
+    } catch (error) {
+      console.error(error);
+      throw error;
+    }
+    
   }
 
   close() {

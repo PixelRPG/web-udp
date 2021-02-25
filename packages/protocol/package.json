@@ -1,6 +1,6 @@
 {
   "name": "@web-udp/protocol",
-  "version": "4.2.0",
+  "version": "4.2.1",
   "description": "Protocol library used in establishing connections between @web-udp/client peers",
   "main": "dist/index.js",
   "files": [
@@ -13,6 +13,7 @@
   "author": "Eric McDaniel <eric.mcdaniel@gmail.com>",
   "license": "ISC",
   "devDependencies": {
+    "typescript": "^4.2.4",
     "wrtc": "0.4.7"
   },
   "peerDependencies": {
