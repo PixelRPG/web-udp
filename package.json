@@ -30,7 +30,7 @@
   "main": "lib/server.js",
   "name": "web-udp",
   "scripts": {
-    "clean": "lerna exec -- rm -rf ./dist/* && lerna clean --yes",
+    "clear": "lerna exec -- rm -rf ./dist/* && lerna clean --yes",
     "format": "prettier packages/**/*.ts --write",
     "bootstrap": "lerna bootstrap --hoist",
     "build": "lerna run build",
