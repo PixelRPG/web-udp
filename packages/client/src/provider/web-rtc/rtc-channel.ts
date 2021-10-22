@@ -41,7 +41,7 @@ export default class RTCChannel implements Connection {
 
   private onMessage = (e: MessageEvent) => this.messages.dispatch(e.data)
 
-  private onError = (e: RTCErrorEvent) =>
+  private onError = (e: ErrorEvent) =>
     this.errors.dispatch({ error: e.error.toString() })
 
   private flush() {
