@@ -30,13 +30,13 @@
     ]
   },
   "scripts": {
-    "clear": "lerna exec -- rm -rf ./dist/* && lerna clear --yes",
     "format": "prettier packages/**/*.ts --write",
     "bootstrap": "lerna bootstrap --hoist",
     "build": "npm run build -w @web-udp/protocol -w @web-udp/client -w @web-udp/server",
     "build:client": "npm run build -w @web-udp/client",
     "build:protocol": "npm run build -w @web-udp/protocol",
     "build:server": "npm run build -w @web-udp/server",
+    "clear": "npm run clear -w @web-udp/protocol -w @web-udp/client -w @web-udp/server",
     "precommit": "lint-staged",
     "start": "node examples/server.js",
     "test": "jest",

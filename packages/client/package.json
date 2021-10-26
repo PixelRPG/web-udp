@@ -10,8 +10,7 @@
   ],
   "scripts": {
     "clear": "rimraf dist lib",
-    "build": "webpack --mode=production && tsc --project tsconfig.lib.json",
-    "prepare": "npm run build"
+    "build": "webpack --mode=production && tsc --project tsconfig.lib.json"
   },
   "author": "Eric McDaniel <eric.g.mcdaniel@gmail.com>",
   "license": "ISC",
